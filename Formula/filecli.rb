@@ -4,7 +4,7 @@ class Filecli < Formula
   url "https://github.com/vishal-ceg/CLI-demo/releases/download/v1.1.3/filecli.zip"
 
   def install
-       libexec.install "filecli.jar"
+       libexec.install "filecli-console.jar"
        bin.install_symlink libexec/"filecli.sh"  
     end
 end
