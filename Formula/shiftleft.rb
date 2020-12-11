@@ -5,6 +5,6 @@ class Shiftleft < Formula
   bottle :unneeded
   def install
       libexec.install Dir['*']
-      bin.write_jar_script libexec/'shiftleft-console.jar', shiftleft
+      bin.write_jar_script libexec/'shiftleft-console.jar', 'shiftleft'
     end
 end
