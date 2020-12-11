@@ -1,3 +1,3 @@
-# homebrew-filecli
-1. brew tab vishal-ceg/filecli
-2. brew install filecli
+# homebrew-shiftleft
+1. brew tap vishal-ceg/shiftleft
+2. brew install shiftleft
